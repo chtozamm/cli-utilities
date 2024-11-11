@@ -1,20 +1,27 @@
 # Get-IPInfo
 
-A tool that prints information about the user's IP address, including hostname, city, region, country, location coordinates, organization, postal code, and timezone.
+A utility that retrieves and displays information about the user's IP address.
 
 ## Example
 
 **UNIX/Windows:**
 
-```sh
-$ Get-IPInfo
-IPv4          123.123.123.123
+```
+> Get-IPInfo
+IPv4          8.8.8.8
 Hostname      example-hostname
 City          New York
 Region        New York
 Country       United States
-Location      40.7128,74.0060
+Location      8.0000, 8.0000
 Organization  Example Corp
 Postal        10001
 Timezone      America/New_York
 ```
+
+## Installation
+
+```
+go install github.com/chtozamm/cli-utilities/cmd/Get-IPInfo@latest
+```
+
